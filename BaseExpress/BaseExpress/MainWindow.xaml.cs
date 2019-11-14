@@ -23,7 +23,7 @@ namespace BaseExpress
     /// </summary>
     public partial class MainWindow : Window
     {
-        SqlConnection conn = new SqlConnection();
+        SqlConnection conn = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename=C:\\Users\\Alumno\\source\\repos\\BaseExpress\\BaseExpress\\BaseExpress\\MyBaseDatos.mdf;Integrated Security = True");
         public MainWindow()
         {
             InitializeComponent();
