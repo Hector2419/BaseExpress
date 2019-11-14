@@ -1,0 +1,21 @@
+﻿<Window x:Class="BaseExpress.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaseExpress"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Height="260" Name="MiDataGrid" VerticalAlignment="Top" Margin="10,10,10,0"/>
+        <Button Content="Borrar" Name="btnBorrar" HorizontalAlignment="Left" Margin="553,379,0,0" VerticalAlignment="Top" Width="75" Click="BtnBorrar_Click"/>
+        <Button Content="Actualizar" Name="btnActualizar" HorizontalAlignment="Left" Margin="418,379,0,0" VerticalAlignment="Top" Width="75" Click="BtnActualizar_Click"/>
+        <Button Content="Insertar" Name="btnInsertar" HorizontalAlignment="Left" Margin="281,379,0,0" VerticalAlignment="Top" Width="75" Click="BtnInsertar_Click"/>
+        <Label Content="Id Estudiante:" HorizontalAlignment="Left" Margin="15,319,0,0" VerticalAlignment="Top"/>
+        <Label Content="Resultado Estudiante:" HorizontalAlignment="Left" Margin="505,319,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombre de Estudiante:" HorizontalAlignment="Left" Margin="224,317,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Name="txtId" Height="23" Margin="99,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.544,0.349"/>
+        <TextBox HorizontalAlignment="Left" Name="txtNombre" Height="23" Margin="358,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.544,0.349"/>
+        <TextBox HorizontalAlignment="Left" Name="txtResultado" Height="23" Margin="649,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.544,0.349"/>
+    </Grid>
+</Window>
